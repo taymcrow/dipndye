@@ -2,90 +2,123 @@
 <html lang="en">
 <html>
 	<head>
-		<title>Lost In The Sauce</title>
+		<title>Dip N Dye</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="site.css">
+		<link rel="manifest" href="manifest.json">
 		<html lang="en" manifest="manifestcache.txt">
 		<script src="https://kit.fontawesome.com/6f3e0fac03.js" crossorigin="anonymous"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	</head>
-	<script>
-if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
-    navigator.serviceWorker.getRegistrations().then(function(registrations) {
-        if (registrations) {
-            registrations.forEach(function (registration) {
-                registration.unregister().catch(function () {});
-            });
-        }
-    }).catch(function () {});
-}	
-</script>
+	
 	<body>
 	
 	<header>
 	<div class="jumbotron">
 	<div class="header-img"></div>
-  <h1 class="display-3">Lost in the Sauce</h1>
+  <h1 class="display-3"></h1>
 
 </div>
 		
 		</header>
 		
-	<div id="result"></div>
+<div style="background-image: url('pink.png');">		
+	
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home
+          <span class="sr-only"></span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="products.html">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="artists.html">Artists Corner</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+	        <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+	
+	
+	<div class="container">
+<div id="video-carousel" class="carousel slide carousel-fade" data-ride="carousel">		
+<div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <video class="video-fluid" autoplay loop muted>
+        <source src="dipndye.mp4" type="video/mp4" />
+      </video>
+    </div>
+	</div>
+  </div>
+
+  
 
 
-	
-	<nav>
-	
-	<ul class="nav nav-pills flex-column" style="background-color:#383838; border-radius:10px; ">
-  <li class="nav-item">
-    <a class="nav-link" href="menu.html">Menu</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="locationandhours.html">Location and Hours</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="schedule.html">Schedule</a>
-  </li>
-    <li class="nav-item">
-    <a class="nav-link" href="sauces.html">Sauces</a>
-  </li>
-    <li class="nav-item">
-    <a class="nav-link" href="aboutus.html">About Us</a>
-  </li>
-    <li class="nav-item">
-    <a class="nav-link" href="contactus.html">Contact Us</a>
-  </li>
-</ul>
-	
-	</nav>
-	
-		<main>
-	
+<div class="container">
+<div id="demo" class="carouselslide" data-ride="carousel">
 
-	<div class="card" style="margin-left:-12em; margin-top:2em;">
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="hairproducts.jpg" width="1100" height="500">
+	    <div class="carousel-caption">
+    <h3>Hair Care Products</h3>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="hair.jpg" width="1100" height="500">
+	  <div class="carousel-caption">
+    <h3>Revived Hair!</h3>
+	  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="nails.jpg" width="1100" height="500">
+	  <div class="carousel-caption">
+    <h3>Beautiful Nails!</h3>
+	  </div>
+    </div>
+  </div>
 
- <div class="card-body">
-    <h4 class="card-title">Like what you see?<br>Contact us today to<br>book us for an event!</h4>
-    <p class="card-text"><a href="https://www.facebook.com/LostInTheSaucellc"> <i class="fab fa-facebook-square" style="font-size:200%; color:#FFA500;"></i></a>
-<a href="file:///C:/Users/taymc/Desktop/LostInTheSauce/contactinformation.html"> <i class="fas fa-envelope-square" style="font-size:200%; color:#FFA500;"></i></a>
-<a href="file:///C:/Users/taymc/Desktop/LostInTheSauce/contactinformation.html"> <i class="fas fa-phone-square-alt" style="font-size:200%; color:#FFA500;"></i></a></p>
-  </div>	
-</div>
 
-<div class="card" style="margin-left:-12em;">
+<br>
+<div class="footercard">
   <div class="card-body">
-    <h5 class="card-title"></h5>
-    <p class="card-text"><br>Copyright &copy; 2020 Lost In The Sauce<br>
-		<br>llclostinthesauce@gmail.com</p>
+    <p class="card-text"><a href="https://www.facebook.com/Dip-N-Dye-675414985915712"> <i class="fab fa-facebook-square" style="font-size:400%; color:#FFFFFF;"></i></a>
+<a href="file:///C:/Users/taymc/Desktop/dipndye/contactinfo.html"> <i class="fas fa-envelope-square" style="font-size:400%; color:#FFFFFF;"></i></a>
+<a href="file:///C:/Users/taymc/Desktop/dipndye/contactinfo.html"> <i class="fas fa-phone-square-alt" style="font-size:400%; color:#FFFFFF;"></i></a></p>
+Copyright &copy; 2020 Dip N Dye<br>
+		<br>dipndye@gmail.com</p>
+  </div>
+  <div class="card-footer">
+
   </div>
 </div>
-	
-	
+<main>	
 </main>
 </body>
 </html>
